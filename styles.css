@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .navbar {
+/*     font-size: 20px;
+    display:block;
+    padding:10px 20px;
+    line-height:0.8em;
+    color:#000000;
+    border-left:1px solid #000000;
+    text-decoration: none; */
+
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .nav a:hover {
+    text-decoration:none;
+    background:#ffcdcd;
+  }
+  
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0);
+    font-size: 24px;
+  }
+  
+  #chkToggle {
+    display: none;
+  }
+  
+  #chkToggle:checked + ul.main-nav {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    #chkToggle:checked + ul.main-nav {
+      display: flex;
+    }
+  
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .main-nav li {
+      margin: 0;
+    }
+  
+    .nav-links {
+      margin-left: 40px;
+    }
+  
+    .logo {
+      margin-top: 0;
+    }
+  
+    .navbar-toggle {
+      display: none;
+    }
+  
+    .logo:hover,
+    .nav-links:hover {
+      color: rgb(176, 216, 0);
+    }
+  }
+
+
+/* body, html {
+    scroll-behavior: smooth;
+    height: 100vh;
+    min-width: 600px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+} */
+/* .nav {
+    padding-top: 10px;
+    background-color: blue;
+}
+
+.nav ul {
+    *zoom:1;
+    list-style:none;
+    margin:0px;
+    padding:0;
+    background: red;
+
+}
+
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+
+.nav ul:after {
+    clear:both;
+}
+
+.nav ul > li {
+    float:right;
+    position: relative;
+    padding-top: 20px;
+}
+*/
+
+/* .navbar img {
+    margin-right: 15px;
+    float: left;
+    border-radius: 50%;
+    width: 75px;
+}
+
+.navbar p {
+    padding-top: 10px;
+} */
+/*
+.nav a {
+    font-size: 20px;
+    display:block;
+    padding:10px 20px;
+    line-height:0.8em;
+    color:#000000;
+    border-left:1px solid #000000;
+    text-decoration: none;
+}
+
+.nav #about-ref {
+    border-left:none;
+}
+
+.nav a:hover {
+    text-decoration:none;
+    background:#ffcdcd;
+}
+.nav li ul {
+    background:#ffcdcd;
+}
+.nav li ul li {
+    width:200px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+} */
+
+/*Animation Dropdown*/
+/*
+.nav li ul {
+    position:absolute;
+    right:0;
+    top:56px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+@media screen and (max-width: 1000px) {
+    .nav ul > li {
+      float: none;
+    }
+  }
+*/
+
+/* 
+.splash-page {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+*/
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+  
+  /* Style the <hr> element */
+  /*hr {
+    margin: auto;
+    width: 40%;
+    float: left;
+  }
+
+.main {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+} */
