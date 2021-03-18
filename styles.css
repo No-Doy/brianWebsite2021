@@ -6,7 +6,8 @@
   
   body, html {
     height: 100%;
-    margin: 0;
+    max-width: 1024px;
+    margin: auto;
     font-family: 'Work Sans', sans-serif;
   }
   
@@ -68,7 +69,7 @@
     display: block;
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1024px) {
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -225,22 +226,38 @@
   }
 */
 
-/* 
-.splash-page {
+/* .splash-page {
     position: relative;
     text-align: left;
     color: white;
     font-size: 25px;
+} */
+
+img { 
+  display: block;
+  width: 100%;
+  max-width: 1024px;
 }
-*/
-.top-left {
-    position: absolute;
-    top: 200px;
-    left: 16px;
-    background: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    padding: 10px;
+
+.splash-container {
+  position: relative;
+  display: inline-block;
 }
+
+.text-box-left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate( -10%, -50% );
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+
   
   /* Style the <hr> element */
   /*hr {
