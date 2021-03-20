@@ -112,13 +112,14 @@
   display: block;
   width: 100%;
   max-width: 1024px;
+  padding: 10px;
 }
 
 .text-box-left {
   position: absolute;
   top: 50%;
-  left: 10%;
-  transform: translate( -10%, -50% );
+  left: 20%;
+  transform: translate( -20%, -50% );
   text-align: left;
   color: white;
   font-weight: bold;
@@ -127,73 +128,109 @@
   background: rgba(0,0,0,0.5);
 }
 
+/* PROJECTS PAGE */
+
 .project-page {
   padding-top: 20px;
+
+}
+
+.project-page h1 {
   text-align: center;
 }
 
-.project-main {
-  display: inline-block;
-  
+/* PROJECT ONE */
+
+.project-1 {
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
-.project-left {
-  display: inline-block;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-.project-left img {
+.project-div-img-right {
   float: right;
   max-width: 350px;
+  padding: 10px;
 }
 
-.project-left h2 {
-  padding-top: 10px;
-  float: left;
+.project-h2-1, .project-p-1 {
+  padding: 10px;
 }
 
-.project-left p {
-  position: relative;
-  float: left;
-  text-align: left;
-  max-width: 500px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-} 
-
-.project-right {
-  display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.project-p-1-utilized {
+  font-size: 14px;
+  padding: 10px;
 }
 
-.project-right img {
+/* PROJECT TWO */
+
+.project-2 {
+  padding-top:50px;
+  padding-bottom: 100px;
+}
+
+.project-div-img-left {
   float: left;
   max-width: 350px;
+  padding: 10px;
 }
 
-.project-right h2 {
-  padding-top: 10px;
-  float: right;
-}
-
-.project-right p {
-  float: right;
+.project-h2-2, .project-p-2 {
+  padding: 10px;
   text-align: right;
-  max-width: 500px;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
-  /* Style the <hr> element */
-  /*hr {
-    margin: auto;
-    width: 40%;
-    float: left;
-  }
+.project-p-2-utilized {
+  font-size: 14px;
+  padding: 10px;
+  text-align: right;
+}
 
-.main {
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
-} */
+.project-page {
+  padding-top: 20px;
+
+}
+
+.project-page h1 {
+  text-align: center;
+}
+
+/* WORK PAGE */
+.work-page {
+  padding-top: 20px;
+
+}
+
+.work-page h1 {
+  text-align: center;
+}
+
+/* WORK ONE */
+
+/* FOOTER */
+.footer,
+.push {
+  height: 20px;
+}
+
+/* ICONS */
+.fab {
+  color: black;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+.far {
+  color: black;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  float: right;
+}
+
+.fab:hover {
+  color: rgb(176, 216, 0);
+}
+
+.far:hover {
+  color: rgb(176, 216, 0);
+}
